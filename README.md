@@ -1,2 +1,3 @@
 # frontEnd-reset
-css reset file
+
+浏览器样式reset & 通用样式类
