@@ -6,22 +6,13 @@
  *
  **/
 
-/*
- *  常规pc页面
- */
-@media screen and (min-width : 1024px) {
-    html {
-        font-size:12px;
-	    font:14px/2.0 Helvetica,'Microsoft Yahei',serif,sans-serif;
-    }
-}
-
 /**
  *  移动设备常用mediaquery
- *  应用于1024px以下设备
+ *  应用于768px以下设备
  *  移动设备的基本字体为16px
- */
-@media screen and (min-width : 640px) and (max-width : 1023px;) {
+ *  利用rem来设置字体大小
+ *
+@media screen and (min-width : 640px) and (max-width : 768px;) {
     html {
         font-size:32px;
     }
@@ -62,9 +53,8 @@
         font-size:16px;
     }
 }
+*/
 
-
-/*- reste -*/
 html,body,div,dl,dt,dd,ul,ol,li,h1,h2,
 h3,h4,h5,h6,pre,code,form,fieldset,
 legend,input,textarea,p,blockquote,th,td{ 
@@ -116,7 +106,7 @@ caption,th{
 
 h1,h2,h3,h4,h5,h6{
 	font-size:100%;
-	font-weight:bold;
+	font-weight:normal;
 }
 
 /*--某些浏览器中，q或者blockquote前后会出现引号--*/
@@ -171,7 +161,6 @@ iframe {
 .clearfix:after {
   clear: both;
 }
-
 .text-center {
     text-align:center;
 }
@@ -181,7 +170,6 @@ iframe {
 .text-right {
     text-align:right;
 }
-
 .hide {
     display:none;
 }
@@ -194,12 +182,23 @@ iframe {
 .visibile {
     visibility:visible;
 }
-
 .fl {
     float:left;
 }
 .fr {
     float:right;
+}
+.inline-block {
+    display:inline-block;
+}
+.block {
+    display:block;
+}
+.inline {
+    display:inline;
+}
+.relative {
+    position:relative;
 }
 .unstyle {
     padding:0;
