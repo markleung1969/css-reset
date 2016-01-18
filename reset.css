@@ -12,7 +12,7 @@
  *  移动设备的基本字体为16px
  *  利用rem来设置字体大小
  *
-@media screen and (min-width : 640px) and (max-width : 768px;) {
+@media screen and (min-width : 640px) and (max-width : 768px) {
     html {
         font-size:32px;
     }
